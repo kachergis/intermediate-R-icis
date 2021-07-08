@@ -1,7 +1,7 @@
 ---
-title: "Intermediate R"
-author: "Mike Frank"
-date: "5/27/2021"
+title: "Intermediate R Tutorial"
+author: "Presenter: George"
+date: "`r Sys.Date()`"
 output: 
   html_document:
     toc: true
@@ -9,6 +9,8 @@ output:
 editor_options: 
   chunk_output_type: inline
 ---
+
+This tutorial was created by Mike Frank for an ICIS tutorial (5/27/2021), with revisions from Mika Braginsky, Georgia Loukatou, and George Kachergis.
 
 # Housekeeping
 
@@ -19,17 +21,21 @@ If you have tidyverse installed, you can `knit` the tutorial into an HTML docume
 **POLL QUESTIONS**:
 
 * Do you have R, R Studio, and Tidyverse installed?  [yes / no]
-* Did you take Krista's webinar on Tuesday?  [yes / no]
+* Have you used R before?  [yes / no]
 * Have you used tidyverse before?  [yes / no]
 * Have you used ggplot before?  [yes / no]
 
 ## Questions
 
-We want you to ask questions in the chat. Other students will learn from your questions because they have the same questions too probably! If you are feeling shy (or have issues with software installs or bugs that are specific to your computer or a particular line of code that isn't working) then you can private chat to Mika Braginsky, Georgia Loukatou, or George Kachergis, our TAs!
+Please feel free to ask questions in the chat--and answer others' questions, if possible!
+Other students will learn from your questions because they likely have the same questions, too!
+If the problem persists for a minute and I don't notice your message, feel free to jump in and ask me directly.
+If you are feeling shy (or have issues with software installs or bugs that are specific to your computer or a particular line of code that isn't working), then you can also DM or email me and I can try to help during a break.
 
 ## Misc
 
-The best reference for this material is Hadley Wickham's [R for data scientists](http://r4ds.had.co.nz/). My contribution here is to translate this reference for psychology.s
+The best reference for this material is Hadley Wickham's [R for data scientists](http://r4ds.had.co.nz/). 
+Mike has helpfully translated this reference for psychology.
 
 <!-- ----------------------------------------------------------------------- -->
 # Goals and Introduction
